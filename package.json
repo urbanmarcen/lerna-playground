@@ -1,0 +1,17 @@
+{
+  "name": "@intersolsi/lerna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "workspaces/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "private": true,
+  "scripts": {
+    "commit": "cz"
+  }
+}
