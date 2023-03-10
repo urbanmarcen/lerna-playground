@@ -4,6 +4,8 @@ interface CardProps extends PropsWithChildren {
   title?: string;
 }
 
+import "./style.scss";
+
 export const Card: React.FC<CardProps> = ({
   title = "...",
   children = null,
